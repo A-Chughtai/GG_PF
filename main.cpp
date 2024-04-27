@@ -17,7 +17,14 @@ int main()
 /*==============================================================================*/
 /*Prints a welcome message for the Game of Life program and starts the game heh.*/
 void welcome()
-{
+{    cout << "==================================" << endl;
+    cout << "|          GAME OF LIFE          |" << endl;
+    cout << "|     By : Ghazanfar Ghaffar     |" << endl;
+    cout << "|        22i-2079 PF SEC B       |" << endl;
+    cout << "==================================" << endl;
+    cout << endl;
+
+ 
    cout << "Do you want to start the game? (Y/N): ";
     char choice; // variable for user's choice
     cin >> choice;
